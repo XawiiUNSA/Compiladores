@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+// Este es un comentario en línea
+int main() {
+    int a = 5; // Variable entera
+    int b = 10;
+    int c;
+    
+    /* Este es un comentario
+       en bloque que abarca varias
+       líneas */
+    
+    c = a + b; // Suma
+    cout << "La suma de a y b es: " << c << endl;
+    
+    if (a > b) {
+        cout << "a es mayor que b" << endl;
+    } else if (a == b) {
+        cout << "a es igual a b" << endl;
+    } else {
+        cout << "a es menor que b" << endl;
+    }
+    
+    for (int i = 0; i < 10; i++) {
+        cout << i << " ";
+    }
+    cout << endl;
+    
+    switch (a) {
+        case 1:
+            cout << "a es 1" << endl;
+            break;
+        case 5:
+            cout << "a es 5" << endl;
+            break;
+        default:
+            cout << "a no es ni 1 ni 5" << endl;
+    }
+
+    return 0;
+}
